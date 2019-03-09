@@ -40,7 +40,7 @@ input為 CSL dataset的圖片pixel，大小為(227,227,3)，先將圖片pixel攤
 
   - kernel : linear
 
-    - scaling:False
+    - scaling:False </br>
       |Result|Description|
       | ---  |---       | 
       |accuracy| 0.6792307692307692|
