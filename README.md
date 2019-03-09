@@ -49,7 +49,7 @@ input為 CSL dataset的圖片pixel，大小為(227,227,3)，先將圖片pixel攤
       |recall| 0.6792307692307692|
 			
 	- scaling:True
-  
+
       |Result|Description|
       | ---  | ---       | 
       |accuracy| 0.7923076923076923|
@@ -58,6 +58,7 @@ input為 CSL dataset的圖片pixel，大小為(227,227,3)，先將圖片pixel攤
         
   - kernel : rbf
     - scaling:False
+
       |Result|Description|
       | ---  |---       | 
       |accuracy| 0.9353846153846154|
@@ -65,6 +66,7 @@ input為 CSL dataset的圖片pixel，大小為(227,227,3)，先將圖片pixel攤
       |recall| 0.9353846153846153|
 			
 	- scaling:True
+
       |Result|Description|
       | ---  | ---       | 
       |accuracy| 0.9507692307692308|
@@ -84,6 +86,7 @@ penalty C: 1.0 </br>
 cross_validate: 10 </br>
 
 cross validation result:</br>
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -113,6 +116,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -142,6 +146,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -171,6 +176,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result: </br>
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -200,6 +206,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -229,6 +236,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -258,6 +266,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -287,6 +296,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -316,6 +326,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -345,6 +356,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -375,6 +387,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -404,6 +417,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -433,6 +447,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -462,6 +477,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -491,6 +507,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -520,6 +537,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result: </br>
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -549,6 +567,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -578,6 +597,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -607,6 +627,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -636,6 +657,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -665,6 +687,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -694,6 +717,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -723,6 +747,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -752,6 +777,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -781,6 +807,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -810,6 +837,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -839,6 +867,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br> </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -868,6 +897,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result: </br>
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -897,6 +927,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -926,6 +957,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -955,6 +987,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -984,6 +1017,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br> </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1013,6 +1047,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1042,6 +1077,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1071,6 +1107,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1100,6 +1137,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1129,6 +1167,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br> </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1158,6 +1197,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1187,6 +1227,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1216,6 +1257,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1245,6 +1287,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1274,6 +1317,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1303,6 +1347,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1332,6 +1377,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1361,6 +1407,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1390,6 +1437,7 @@ penalty C: 1.0 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1419,6 +1467,7 @@ penalty C: 0.8 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1448,6 +1497,7 @@ penalty C: 1.2 </br>
 cross_validate: 10  </br>
 
 cross validation result:
+
 |CV No.| Accuracy  | Percision | Recall   | Accuracy  | Percision | Recall    |
 |---   |---        |---        |---       |---        |---        |---        |
 |Type  | Train     | Train     | Train    | Test      | Test      | Test      |
@@ -1471,4 +1521,5 @@ recall: 0.11538461538461539 </br>
 </br>
 
 - **Description of observations**</br>
+
   由上述眾多結果中可以觀察到，kernel若使用rbf則效果最好，poly及linear次之，而sigmoid的效果最差，而在n_components的參數上，分別以1、2、3下去跑，結果可以看到n_components越高，則效果越好，penalty C的參數則沒有較明顯的趨勢，須依據不同模型選擇不同的參數值，若有做scaling，結果也會較沒有scaling的來得更好。
