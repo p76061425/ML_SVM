@@ -20,13 +20,13 @@ $ python3 svm.py [-h]
 
 ### Extract features to describe the hand gesture and apply SVM to classify the “CSL” dataset. 
 
-- **Brief description of development environment**
-    DISTRIB_ID=Ubuntu
-    DISTRIB_RELEASE=18.04
-    DISTRIB_CODENAME=bionic
-    DISTRIB_DESCRIPTION="Ubuntu 18.04.1 LTS"
+- **Brief description of development environment**</br>
+    DISTRIB_ID=Ubuntu</br>
+    DISTRIB_RELEASE=18.04</br>
+    DISTRIB_CODENAME=bionic</br>
+    DISTRIB_DESCRIPTION="Ubuntu 18.04.1 LTS"</br>
 
-- **Description of  features**
+- **Description of  features**</br>
 input為 CSL dataset的圖片pixel，大小為(227,227,3)，先將圖片pixel攤平為(154587,)後使用PCA，將inputs做降維為n_components，再將降維後的結果輸入SVM模型。
     
 - **Comparison of**
